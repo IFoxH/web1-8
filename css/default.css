@@ -4,15 +4,17 @@ body{
   background-color: mediumaquamarine;
 }
 
-.breadcrumbs li{
-      display: inline;
-      list-style-type: none;
+#gnav li{
+      overflow: hidden;
 }
 
-.breadcrumbs li:before {
-      content: " > ";
+#gnav li {
+  float: left;
+  width: 156px;
+  border-right: white 1px solid;
+  list-style-type: none;
 }
 
-.breadcrumbs li:first-child:before {
-      content:"";
+#gnav li:first-child {
+      border-left: white 1px solid;
 }
